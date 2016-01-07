@@ -3,7 +3,7 @@ ruby '2.2.2'
 
 gem 'sinatra', '>= 1.4'
 gem 'sinatra-flash', '0.3.0'
-gem 'bundler'
+gem 'bundler', only test purposes
 
 group :development, :test do
   gem 'cucumber', '2.0.0'
